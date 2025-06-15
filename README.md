@@ -47,54 +47,26 @@ _(May take a few seconds to load on free hosting)_
 git clone https://github.com/tripathy-ji/reoffending-risk-predictor.git
 cd reoffending-risk-predictor
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python app.py
+Then open `http://127.0.0.1:5000` in your browser.
+```
 
-Then open http://127.0.0.1:5000 in your browser.
+## 🧰 Tech Stack
+- Python
+- Flask
+- scikit-learn
+- HTML + Bootstrap
+- joblib
 
-🧰 Tech Stack
-Python
+## 👤 Author
+Ayush Tripathy  
+🎓 B.Sc Forensic Science, NFSU Dharwad  
+🔗 [LinkedIn](https://www.linkedin.com/in/ayush-tripathy-5666a631a/)
 
-Flask
-
-scikit-learn
-
-HTML + Bootstrap
-
-joblib
-
-👤 Author
-Ayush Tripathy
-🎓 B.Sc Forensic Science, NFSU Dharwad
-🔗 LinkedIn
-
-🌍 Live Demo
+## 🌍 Live Demo
 🚀 Hosted on Render: https://reoffending-risk-app.onrender.com
 
-📄 License
+## 📄 License
 MIT License – free to use with attribution.
-
-yaml
-Copy
-Edit
-
----
-
-### 🔁 After Copying
-
-1. Open your `README.md` in **VS Code**.
-2. Scroll to the **very end**.
-3. Paste all the lines from above there (don’t remove anything, just paste).
-4. Save the file.
-
----
-
-### 🚀 Then Push to GitHub:
-
-In terminal (in the project folder), run:
-
-```bash
-git add README.md
-git commit -m "Updated README with full instructions and author info"
-git push
