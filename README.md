@@ -39,3 +39,56 @@ _(May take a few seconds to load on free hosting)_
 │   └── india_forensic_data.csv  # Synthetic dataset
 ├── generate_indian_data.py # Dataset generator
 └── requirements.txt         # Dependencies
+
+🚀 How to Run Locally
+
+git clone https://github.com/tripathy-ji/reoffending-risk-predictor.git
+cd reoffending-risk-predictor
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python app.py
+
+Then open http://127.0.0.1:5000
+
+🧠 Tech Stack
+Python
+
+Flask
+
+scikit-learn
+
+HTML + Bootstrap
+
+Joblib
+
+👤 Author
+Ayush Tripathy
+B.Sc Forensic Science, NFSU Dharwad
+LinkedIn Profile : https://www.linkedin.com/in/ayush-tripathy-5666a631a
+
+🌐 Live Demo
+👉 Hosted on Render : https://reoffending-risk-app.onrender.com
+
+📄 License
+MIT License. Use freely with attribution.
+
+---
+
+#### 📌 Step 3: Click **"Commit Changes"** at the bottom of the page.
+
+✅ Done! Your GitHub `README.md` will now have a polished layout, full instructions, your screenshot, live link, and tech stack.
+
+---
+
+#### ❗ Reminder: Make sure your image file is actually uploaded and accessible
+
+Your image (e.g., `screenshot.png`) must be:
+
+- Uploaded to your repo
+- In the main root folder (or update the path accordingly in the Markdown)
+- You can rename your screenshot to `screenshot.png` to match the path above.
+
+Let me know when you've done this, and I’ll take a final look to confirm everything’s perfect for sharing 💪
+
+
