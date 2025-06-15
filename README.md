@@ -1,34 +1,41 @@
-# 🔍 Reoffending Risk Predictor (India Focused)
+# 🔍 Reoffending Risk Predictor
 
-A machine learning web application that predicts whether a person is likely to reoffend based on criminal and psychological attributes — trained using a simulated Indian dataset inspired by NCRB trends.
+A machine learning-powered web app to predict the risk of reoffending (recidivism) based on synthetic forensic patterns inspired by Indian NCRB data.
 
-## 📊 Project Overview
+Built with:
+- 🧠 Machine Learning (Random Forest)
+- 🐍 Python & Flask
+- 📊 Synthetic data from NCRB-style insights
+- 🌐 Hosted on Render
 
-This app:
-- Uses a **Random Forest Classifier** to predict recidivism
-- Simulates realistic forensic data using NCRB crime patterns
-- Allows interactive prediction through a web form
+## 🔗 Live Demo
 
-Built by **Ayush Tripathy**, Forensic Science student at NFSU Dharwad, as part of a summer project.
-
----
-
-## 🧠 Features
-
-- **Fields considered**:
-  - Age
-  - Prior Convictions
-  - Mental Health Status (None, Mild, Severe)
-  - Drug Use (Never, Occasional, Frequent)
-  - Employment Status
-  - Crime Type (e.g., Theft, Assault, Cyber Crime, etc.)
-
-- **Machine Learning**: RandomForestClassifier
-- **Frontend**: HTML + Bootstrap
-- **Backend**: Flask (Python)
-- **Encoders**: Joblib label encoders for categorical fields
+👉 [Visit the App](https://reoffending-risk-app.onrender.com/)  
+_(May take a few seconds to load on free hosting)_
 
 ---
 
-## 🗂️ Folder Structure
+## 📌 Features
 
+- Simple input form for Age, Prior Convictions, Mental Health, Drug Use, Employment, Crime Type
+- Risk predicted using a trained ML model
+- Categorical encodings saved & reused via `joblib`
+- Clean web UI using HTML and Bootstrap
+- Trained on realistic Indian-style synthetic data (~10,000 rows)
+
+---
+
+## 📁 Project Structure
+
+```bash
+├── app.py                   # Flask app
+├── templates/
+│   └── index.html           # HTML frontend
+├── model/
+│   ├── risk_model.pkl       # Trained model
+│   ├── *_encoder.pkl        # Label encoders
+│   └── train_model.py       # ML training script
+├── dataset/
+│   └── india_forensic_data.csv  # Synthetic dataset
+├── generate_indian_data.py # Dataset generator
+└── requirements.txt         # Dependencies
