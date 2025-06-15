@@ -39,3 +39,62 @@ _(May take a few seconds to load on free hosting)_
 │   └── india_forensic_data.csv  # Synthetic dataset
 ├── generate_indian_data.py # Dataset generator
 └── requirements.txt         # Dependencies
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+git clone https://github.com/tripathy-ji/reoffending-risk-predictor.git
+cd reoffending-risk-predictor
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python app.py
+
+Then open http://127.0.0.1:5000 in your browser.
+
+🧰 Tech Stack
+Python
+
+Flask
+
+scikit-learn
+
+HTML + Bootstrap
+
+joblib
+
+👤 Author
+Ayush Tripathy
+🎓 B.Sc Forensic Science, NFSU Dharwad
+🔗 LinkedIn
+
+🌍 Live Demo
+🚀 Hosted on Render: https://reoffending-risk-app.onrender.com
+
+📄 License
+MIT License – free to use with attribution.
+
+yaml
+Copy
+Edit
+
+---
+
+### 🔁 After Copying
+
+1. Open your `README.md` in **VS Code**.
+2. Scroll to the **very end**.
+3. Paste all the lines from above there (don’t remove anything, just paste).
+4. Save the file.
+
+---
+
+### 🚀 Then Push to GitHub:
+
+In terminal (in the project folder), run:
+
+```bash
+git add README.md
+git commit -m "Updated README with full instructions and author info"
+git push
